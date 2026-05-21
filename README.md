@@ -2,7 +2,6 @@
 
 A browser-based investigation tool for tracking perpetual futures trading activity by wallet address. Built to support investigations into complex leveraged trading issues that are difficult to trace through standard blockchain explorers.
 
----
 
 ## The Problem
 
@@ -10,7 +9,6 @@ Perpetual futures transactions don't show up cleanly in standard blockchain expl
 
 When a user reports an issue — a missing position, an unexpected liquidation, a failed deposit — you need to see their complete activity history within the protocol, not just raw on-chain transactions. This tool pulls exactly that.
 
----
 
 ## Features
 
@@ -21,7 +19,6 @@ When a user reports an issue — a missing position, an unexpected liquidation, 
 - Clean, readable layout designed for quick scanning during a support investigation
 - Surfaces the full activity timeline needed to reconstruct what happened
 
----
 
 ## Stack
 
@@ -29,7 +26,6 @@ When a user reports an issue — a missing position, an unexpected liquidation, 
 - **HTML / CSS** — frontend interface
 - **Hyperliquid API** — perpetual futures data source
 
----
 
 ## Notes
 
