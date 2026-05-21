@@ -9,7 +9,7 @@ A browser-based investigation tool for tracking perpetual futures trading activi
 
 Perpetual futures transactions don't show up cleanly in standard blockchain explorers. They're deeply integrated with the Hyperliquid protocol, involve multiple transaction types (deposits, trades, withdrawals, liquidations), and require understanding the protocol's own data model to interpret correctly.
 
-When a user reports an issue — a missing position, an unexpected liquidation, a failed deposit — you need to see their complete activity history within the protocol, not just raw on-chain transactions. This tool pulls exactly that.
+When a user reports an issue (a missing position, an unexpected liquidation, a failed deposit), you need to see their complete activity history within the protocol, not just raw on-chain transactions. This tool pulls exactly that.
 
 
 ---
@@ -28,9 +28,9 @@ When a user reports an issue — a missing position, an unexpected liquidation, 
 
 ## Stack
 
-- **JavaScript** — core logic and API integration
-- **HTML / CSS** — frontend interface
-- **Hyperliquid API** — perpetual futures data source
+- **JavaScript**: core logic and API integration
+- **HTML / CSS**: frontend interface
+- **Hyperliquid API**: perpetual futures data source
 
 
 ---
